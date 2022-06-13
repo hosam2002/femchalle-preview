@@ -1,0 +1,148 @@
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body
+{
+    width: 600px;
+    margin: 0 auto;
+    font-family: "maven pro";
+    background-color: #0d182b;
+}
+
+div.background
+{
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding-top: 20px;
+
+    box-shadow: 4px 4px 15px -8px;
+
+    margin: 50px auto 0;
+    background: #15253e;
+}
+
+.pic-space
+{
+    margin: auto;
+    width: 360px;
+    height: 260px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px -9px ; /*Hs Vs Br Sp Cl Ty*/
+    position: relative;
+
+    background-image: url(pic/pic-content.png); /* #8babda #01fefa */
+}
+
+.hover
+{
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 15px;
+}
+
+.hover:hover
+{
+    opacity: 1;
+    background-image: url(pic/eye.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content-header
+{
+    padding: 10px 20px 0 20px;
+    color: #FFF;
+}
+
+.para
+{
+    color: #8babda;
+}
+
+.last-content
+{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px 0 20px;
+    /*border-bottom: 1px solid rgba(139, 171, 218, 0.3);*/
+
+    /*background: #FFF;*/
+}
+
+.sec-one
+{
+    /*background: #0FF;*/
+    width: 40%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    color: #01fefa;
+}
+
+.sec-two
+{
+    /*background: #F00;*/
+    width: 40%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    color: #8babda;
+}
+
+.sec-one > label
+{
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.sec-two > label
+{
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.hr
+{
+    padding: 10px 20px 0 20px;
+}
+
+footer
+{
+    /*background: #0FF;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 50px;
+}
+
+footer label
+{
+    font-weight: 450;
+    padding-left: 10px;
+    color: #8babda
+}
+
+footer label span
+{
+    font-weight: 400;
+    color: #FFF;
+}
